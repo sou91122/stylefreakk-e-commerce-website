@@ -1,0 +1,119 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    #product-details form .form-control{max-width: 200px;}
+    #product-details form .submit-btn{min-width: 200px;}
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+#custom-tshirt .form-group textarea{margin-bottom: 15px;}
+#about-us .img-area img{height: 500px;object-fit: cover;object-position: top;}
+#about-us #our-team .item .image-area img{height: 350px;object-fit: cover;object-position: top;}
+#about-us .content-area{height: 100%;}
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    
+}
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .section{padding: 50px 0;}
+    .heading{margin-bottom: 10px;}
+    #footer-area{margin-top: 50px;}
+    #menu-area .nav-item::after{display: none;}
+    #menu-area .nav-link{padding: 10px 0 !important;}
+    #menu-area .dropdown-toggle::before {position: absolute;display: block;top: 20px;left: -24px;width: 11px;height: 1px;content: "";border: none;background-color: #000000;}
+    #menu-area .dropdown-toggle::after {position: absolute;display: block;top: 15px;left: -23px;width: 1px;height: 11px;content: "";border: none;background-color: #000000;transition: all 200ms linear;}
+    #menu-area .dropdown-toggle[aria-expanded="true"]::after{transform: rotate(90deg);opacity: 0;}
+    #menu-area .dropdown-menu {padding: 0 !important;background-color: transparent;box-shadow: none;transition: all 200ms linear;}
+    #menu-area .dropdown-toggle[aria-expanded="true"] + .dropdown-menu {margin-top: 10px !important;margin-bottom: 20px !important;}
+    #menu-area .nav-fill .nav-item{text-align: left;padding-left: 1.5rem;}
+    #menu-area .navbar .nav{flex-wrap: nowrap;justify-content: flex-start !important;flex-direction: column;}
+    #menu-area .navbar .nav .d-flex{max-height: 300px;overflow:auto;}
+    #topbar-area .logo-search ul li.right-btns .text{display: none;}
+    #topbar-area .logo-search ul{flex-direction: column;}
+    #topbar-area .logo-search ul li + li{margin-left: 0;}
+    #topbar-area .logo-search ul li.right-btns{position: absolute;right: 15px;}
+    #topbar-area .logo-search ul li a img{margin: 0 0 10px;}
+    #topbar-area .logo-search ul li a{display: block;padding-left: 35px;}
+    #menu-area{position: fixed;top: 20px;z-index: 99999;}
+    #menu-area .navigation-wrap{box-shadow: none;background-color: transparent !important;}
+    #topbar-area .logo-search ul li:nth-child(2){margin: 0;}
+    #topbar-area .logo-search ul li.right-btns ul{flex-direction: row;justify-content: center;}
+    #topbar-area .logo-search ul li.right-btns ul li{flex: inherit;}
+    #topbar-area .logo-search ul li a .icon img{margin: 10px 10px 0 0;}
+    #menu-area .navbar-collapse{overflow: scroll;position: fixed;width: 290px;left: -290px;height: 100vh !important;transition: all 0.4s;-webkit-transition: all 0.4s;-moz-transition: all 0.4s;-o-transition: all 0.4s;top: 0;background-color: #ffffff;margin: 0;z-index: 99;padding:15px;}
+    #menu-area .navbar-collapse.show{left: -1px;transition: all 1s;-webkit-transition: all 1s;-moz-transition: all 1s;-o-transition: all 1s;margin: 0;border: 0;}
+    #menu-area .navbar-toggler{-webkit-transition: all 0.4s linear;-moz-transition: all 0.4s linear;-ms-transition: all 0.4s linear;-o-transition: all 0.4s linear;transition: all 0.4s linear;}
+    #menu-area .navbar-toggler.open::after{background-color: rgba(0, 0, 0, 0.6);content: "";height: 100%;left: 0;position: fixed;right: 0;top: 0;width: 1200px;z-index: -1;}
+    #product-list .side-panel{margin-bottom: 25px;}
+    #product-list .side-panel ul li.left-list-item{padding: 7px 0;}
+    #product-list .side-panel ul li a{margin-bottom: 0;}
+    #product-list .side-panel ul.left-list ul{display: none;margin-top: 15px;}
+    #product-list .product-details .product-image img{height: 250px;}
+    #product-list .side-panel ul li a::before{content: "\f078";font-family: "Font Awesome 5 Free";font-weight:900;position: absolute;right: 0;top: 0;font-size: 15px;line-height: 30px;-webkit-transition: all .4s ease;transition: all .4s ease;-moz-transition: all .4s ease;-o-transition: all .4s ease;}
+    #product-list .side-panel ul li a.current::before{transform: rotate(180deg);-webkit-transform: rotate(180deg);-moz-transform: rotate(180deg);}
+    #product-list .side-panel ul li a.price::before{display: none;}
+    #product-list .pagination .page-item.first{float: none;}
+    #product-list .pagination .page-item.last{float: none;}
+    #product-list .pagination > li > a, #product-list .pagination > li > span{padding: .5rem .75rem;}
+    #product-list .pagination li.page-item{margin: 0 0 5px;}
+    #custom-tshirt .nav-tabs a{min-width: auto;font-size: 12px;padding: 5px;}
+    #custom-tshirt .nav-tabs a span svg{height: 15px;}
+    #custom-tshirt .tab-content{padding: 5px 0;}
+    #custom-tshirt .tab-content h3{font-size: .875rem;margin-bottom: 5px;}
+    #custom-tshirt .tab-content .tab-pane .colors{display: flex;overflow: scroll;}
+    #custom-tshirt .tab-content .tab-pane .colors li.color-preview{width: 15px;height: 15px;margin: 0 2px 0 0;min-width: 15px;}
+    #custom-tshirt{padding-top: 0;position: fixed;z-index: 999;background-color: #ffffff;height: 76vh;top: 145px;padding-bottom: 0;width: 100%;}
+    #custom-tshirt::before{position: absolute;top: -150px;left: 0;background-color: #ffffff;content: "";height: 100%;width: 100%;}
+    #shirtDiv{text-align: center;width: calc(305px - 35px);margin: auto;}
+    #custom-tshirt .tab-content .tab-pane #avatarlist{display: flex;overflow: scroll;}
+    #custom-tshirt .tab-content .tab-pane #avatarlist img{height: 50px;}
+    #custom-tshirt .form-group {display: flex;margin-bottom: 0;}
+    #custom-tshirt .form-group textarea{height: 25px;padding: 0 5px;}
+    #custom-tshirt .form-group button{padding: 0;min-width: 90px;font-size: 13px;margin-left: 5px;border-radius: 0;}
+    #drawingArea{top: 60px !important;width: 115px !important;height: 200px !important;}
+    #drawingArea *{width: 115px !important;height: 200px !important;}
+    #custom-tshirt .tab-content #upload-image label{padding: 2px 5px;text-transform: capitalize;font-size: .675rem;margin-bottom: 0;}
+    #texteditor button{padding: 0 !important;}
+    #texteditor a{padding: 0 !important;}
+    .form-group .submit-btn{min-width: 137px;}
+    #product-details .form-wrap .cstm-btn{min-width: 130px;}
+    #footer-area .footer-bottom .copy-right{height: auto;}
+    #footer-area .footer-bottom ul{justify-content: flex-start;margin: 0;}
+}
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .container{padding:0 16px;}
+    .container-fluid{padding:0 16px;}
+    .heading h1{font-size: 1.8rem;text-align: left;line-height: 1.1;}
+    .heading h1 span{display: table-caption;padding: 0 10px 0 0;}
+    #footer-area .footer-area-inner-content{margin-bottom: 20px;}
+    .product-details .product-image img{height: 155px;}
+    .adds-area .adds{margin-bottom: 20px;}
+    #footer-area .footer-bottom .copy-right p{padding: 0 15px;}  
+    #product-details h2{margin-top: 15px;}
+    #slider-area #main-slider .slick-prev, #slider-area #main-slider .slick-next{height: 35px; line-height: 50px;border-radius: 0;width: 40px;}
+    #slider-area #main-slider .slick-prev::before, #slider-area #main-slider .slick-next::before{font-size: 20px;}
+    #product-list .product-details .product-image img{height: 155px;}
+    .sortby .sortby-toggle{top: 17%;}
+}
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+#topbar-area .logo-search ul li .form-group .selectpicker{border-right: none;}
+#topbar-area .logo-search ul li .form-group{flex-direction: column;}
+#topbar-area .logo-search ul li .form-group .selectpicker{margin-bottom: 7px;}
+#topbar-area .logo-search ul li .form-group button{top: auto;bottom: 0;}
+#product-details .details-inner .carousel-indicators li img{height: 75px;}
+#product-details .details-inner .carousel-inner .carousel-item img{height: 260px;}
+#product-details .details-inner{padding: 0;flex-direction: column;}
+#product-details .details-inner .carousel-indicators{width: 100%;position: relative;flex-direction: row;order: 1;overflow: scroll !important;}
+#product-details .details-inner .carousel-indicators li{min-width: 75px;}
+}
